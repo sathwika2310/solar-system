@@ -9,7 +9,7 @@ jobs:
   unit-testing:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout Repository
+    - name: Checkout Repository
       uses: actions/checkout@v4
       
     - name: Setup NodeJS
